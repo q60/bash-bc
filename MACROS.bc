@@ -1,0 +1,58 @@
+pi = 4 * a(1);
+
+define fac(x) {
+    f = 1;
+    for(c = 1; c <= x; c++) {
+        f = f * c;
+    }
+    return f;
+}
+
+define sin(x) {
+    return s(x);
+}
+
+define cos(x) {
+    return c(x);
+}
+
+define tg(x) {
+    return s(x) / c(x);
+}
+
+define ctg(x) {
+    return c(x) / s(x);
+}
+
+define sec(x) {
+    return 1 / c(x);
+}
+ 
+define cosec(x) {
+    return 1 / s(x);
+}
+
+define arcsin(x) {
+    return a(x / sqrt(1 - (x ^ 2)));
+}
+
+define arctg(x) {
+    return a(x);
+}
+
+define arccos(x) {
+    return 2 * a(sqrt((1 - x) / (1 + x)));
+}
+
+define arcctg(x) {
+    return (pi / 2) - a(x);
+}
+
+define arcsec(x) {
+    return arccos(1 / x);
+}
+
+define arccosec(x) {
+    return arcsin(1 / x);
+} 
+
